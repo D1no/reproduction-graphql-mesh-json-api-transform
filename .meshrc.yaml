@@ -9,3 +9,13 @@ sources:
             path: /sleep
             method: GET
             responseSchema: json-schemas/sleep_response.json
+    transforms:                         # 
+      - replace-field:                  # Analog from the
+          replacements:                 # Documentation
+            - from:                     # https://www.graphql-mesh.com/docs/transforms/replace-field#how-to-use
+                type: Query             # <- Schema Query
+                field: sleep            #
+              to:                       #
+                type: Sleep_History     # <- Replace with
+                field: sleep            #    Array of Entries
+              scope: hoistValue         #    
