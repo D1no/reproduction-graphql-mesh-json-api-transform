@@ -1,6 +1,7 @@
 {
   "name": "reproduction",
   "scripts": {
+    "start": "npm run serve_mock_api & npx mesh dev",
     "serve_mock_api": "npx json-server --quiet __mock_api_route.json --port 4100"
   },
   "devDependencies": {

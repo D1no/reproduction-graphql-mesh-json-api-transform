@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "title": "Sleep History",
+    "properties": {
+        "sleep": {
+            "title": "History",
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "title": "Sleep Entry",
+                    "properties": {
+                        "start": {
+                            "type": "string",
+                            "format": "date-time"
+                        },
+                        "end": {
+                            "type": "string",
+                            "format": "date-time"
+                        },
+                        "score": {
+                            "type": "number"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

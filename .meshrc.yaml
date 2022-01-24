@@ -1,0 +1,11 @@
+sources:
+  - name: SleepAPI
+    handler:
+      jsonSchema:
+        baseUrl: http://localhost:4100/
+        operations:
+          - type: Query
+            field: sleep
+            path: /sleep
+            method: GET
+            responseSchema: json-schemas/sleep_response.json
