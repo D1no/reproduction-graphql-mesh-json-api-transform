@@ -1,0 +1,15 @@
+node_modules
+temp
+dist
+out
+build
+generated
+yarn-error.log
+*.generated.graphql
+ignored-*
+.bob
+.history
+.DS_Store
+.mesh
+.parcel-cache
+.idea
