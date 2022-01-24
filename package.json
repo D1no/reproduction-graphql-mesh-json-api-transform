@@ -1,0 +1,9 @@
+{
+  "name": "reproduction",
+  "scripts": {
+    "serve_mock_api": "npx json-server --quiet __mock_api_route.json --port 4100"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
