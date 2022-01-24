@@ -10,6 +10,7 @@
   "dependencies": {
     "@graphql-mesh/cli": "^0.48.0",
     "@graphql-mesh/json-schema": "^0.23.4",
+    "@graphql-mesh/transform-replace-field": "^0.3.8",
     "graphql": "^15.8.0"
   }
 }
